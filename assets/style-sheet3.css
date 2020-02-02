@@ -1,0 +1,75 @@
+/*Portfolio.html stylesheet*/
+
+a {
+    color: darkgrey;
+    margin-bottom: 20px;
+}
+
+.nav {
+    float: right
+}
+
+.navbar-brand {
+    padding: 0%;
+    margin-left: 80px;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/16/3d/50/163d506c0e4d603c598d92d7ac425896.jpg);
+    height: 1000px;
+    overflow: auto;
+}
+
+.container-content {
+    background-color: black;
+    opacity: 75%;
+}
+
+h5 {
+    background-color: blue;
+    height: 0px;
+    text-align: center;
+    color: darkgray;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    width: 200px;
+}
+
+.card-deck {
+    max-width: 300px;
+    width: auto;
+}
+
+#card {
+    margin: 0px;
+}
+
+img {
+    max-width: 200px;
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar-brand {
+        flex: 100%;
+        text-align: center;
+        margin: 0;
+        background-color: black;
+    }
+    .nav {
+        margin: 0 auto;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+    #card {
+        margin: opx;
+    }
+    .container-card-body {
+        float: right;
+        margin-right: 50px;
+    }
+}
