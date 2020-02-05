@@ -48,6 +48,10 @@ h2 {
     text-align: center;
 }
 
+p {
+    color: solid darkgray;
+}
+
 @media (max-width: 640px) {
     .navbar {
         padding: 0;
