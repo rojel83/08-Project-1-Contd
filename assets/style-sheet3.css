@@ -90,7 +90,33 @@ h2 {
         height: auto;
     }
     #card {
-        margin: opx;
+        margin: 50px;
+    }
+    .container-card-body {
+        float: right;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar-brand {
+        flex: 100%;
+        text-align: center;
+        margin: 0;
+        background-color: black;
+    }
+    .nav {
+        margin: 0 auto;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+    #card {
+        margin: 50px;
     }
     .container-card-body {
         float: right;
