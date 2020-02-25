@@ -1,4 +1,11 @@
-/*Portfolio.html stylesheet*/
+.row {
+    width: 100%;
+}
+
+.container-header {
+    background-color: black;
+    height: 140px;
+}
 
 a {
     color: darkgrey;
@@ -12,12 +19,6 @@ a {
 .navbar-brand {
     padding: 0%;
     margin-left: 80px;
-}
-
-body {
-    background-color: #ffffff;
-    height: 1000px;
-    overflow: auto;
 }
 
 .container-content {
@@ -70,56 +71,22 @@ h2 {
 }
 
 @media (max-width: 640px) {
-    .container-content {
-        height: auto;
-    }
     .navbar {
         padding: 0;
+    }
+    #pic {
+        width: auto;
+        height: auto;
+        margin: 20px;
     }
     .navbar-brand {
         flex: 100%;
         text-align: center;
-        margin: 0;
-        background-color: black;
     }
     .nav {
         margin: 0 auto;
     }
-    img {
-        width: auto;
-        height: auto;
-    }
-    #card {
-        margin: 50px;
-    }
-    .container-card-body {
-        float: right;
-        margin-right: 50px;
-    }
-}
-
-@media (max-width: 480px) {
-    .navbar {
-        padding: 0;
-    }
-    .navbar-brand {
-        flex: 100%;
-        text-align: center;
-        margin: 0;
-        background-color: black;
-    }
-    .nav {
-        margin: 0 auto;
-    }
-    img {
-        width: auto;
-        height: auto;
-    }
-    #card {
-        margin: 50px;
-    }
-    .container-card-body {
-        float: right;
-        margin-right: 50px;
+    h1 {
+        width: 100%;
     }
 }
