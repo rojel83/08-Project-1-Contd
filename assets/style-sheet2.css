@@ -14,13 +14,20 @@ a {
     opacity: 75%;
     font-weight: bold;
     font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: black;
     height: 1000px;
     overflow: auto;
+    padding: 50px;
+    border-right: 10px solid rgb(100, 4, 4);
+    border-left: 10px solid rgb(100, 4, 4);
 }
+
+
 
 #pic {
     max-width: 400px;
@@ -30,6 +37,7 @@ body {
 p {
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
 
 .page-header {
@@ -53,6 +61,11 @@ p {
 }
 
 @media (max-width: 640px) {
+    body{
+        padding: 0px;
+        border-right: 5px solid rgb(100, 4, 4);
+    border-left: 5px solid rgb(100, 4, 4);
+    }
     .navbar {
         padding: 0;
     }
