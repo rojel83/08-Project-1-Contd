@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    border-right: 10px solid rgb(100, 4, 4);
+    border-left: 10px solid rgb(100, 4, 4);
+}
 .row {
     width: 100%;
 }
@@ -5,6 +10,8 @@
 .container-header {
     background-color: black;
     height: 140px;
+    border-right: 10px solid rgb(100, 4, 4);
+    border-left: 10px solid rgb(100, 4, 4);
 }
 
 a {
@@ -74,6 +81,7 @@ h2 {
     body {
         width: max-content;
         margin-left: 30px;
+        background-color: black;
     }
     h1 {
         width: 100%;
