@@ -27,4 +27,4 @@ Your updated site should have the following content:
 
 
 
-![Alt](/assets\images\assignment8.PNG)
+![Alt](/assets/images/assignment8.PNG)
